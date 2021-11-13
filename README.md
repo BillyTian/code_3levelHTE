@@ -6,6 +6,7 @@ For questions or comments about the code, please contact Zizhong Tian at <zqt512
 I. Supporting Files: These supporting files are sourced in the corresponding main files that reproduce the simulation tables and illustrative plots in the main manuscript as well as the supplementary web appendix.
 
 Folder: functions
+
 1) L1_sim_functions.R = functions about sample size/power formula and data generation under the scenario of level-1 (individual-level) randomization;
 2) L2_sim_functions.R = functions about sample size/power formula and data generation under the scenario of level-2 (subcluster-level) randomization;
 3) L3_sim_functions.R = functions about sample size/power formula and data generation under the scenario of level-3 (cluster-level) randomization;
@@ -16,6 +17,7 @@ Folder: functions
 II. Main Files: These main files are used to reproduce the simulation results and illustrative plots in the main manuscript as well as the web appendix.
 
 Folder: simulations
+
 7) L1_HTE.R = reproduce the simulation table for testing HTE under level-1 randomization;
 8) L1_OTE.R = reproduce the simulation table for testing ATE under level-1 randomization;
 9) L1_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-1 randomization;
@@ -26,7 +28,9 @@ Folder: simulations
 14) L3_OTE.R = reproduce the simulation table for testing ATE under level-3 randomization;
 15) L3_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-1 randomization;
 16) xtable.R = generate the LaTeX editing version of all table contents;
+
 Folder: plots
+
 17) Remark_1_Level2.R = reproduce the illustrative variance plot regarding Remark 1 (level-2 randomization);
 18) Remark_1_Level3.R = reproduce the illustrative variance plot regarding Remark 1 (level-3 randomization);
 19) HALI_example_BaselineScore.R = reproduce the power analysis plot in the data application section;
