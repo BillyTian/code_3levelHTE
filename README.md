@@ -1,5 +1,5 @@
 # code_3levelHTE
-This repository includes R code for reproducing Figure 2 and 3, Table 1 to 3, Web Table 1 to 6, and Web Figure 1 in the paper [Li F, Chen X, Tian Z, Esserman DA, Heagerty PJ, Wang R. Sample size requirements for assessing treatment effect heterogeneity in three-level cluster randomized trials. Under Review.]
+This repository includes R code for reproducing Figure 2 and 3, Table 1 to 3, Web Table 1 to 6, and Web Figure 1 in the paper [Li F, Chen X, Tian Z, Esserman DA, Heagerty PJ, Wang R. Planning Three-Level Cluster Randomized Trials to Assess Treatment Effect Heterogeneity. Under Review.]
 
 For questions or comments about the code, please contact Zizhong Tian at <zqt5121@psu.edu>.
 
