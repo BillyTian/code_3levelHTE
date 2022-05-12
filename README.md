@@ -11,8 +11,8 @@ Folder: functions
 2) L2_sim_functions.R = functions about sample size/power formula and data generation under the scenario of level-2 (subcluster-level) randomization;
 3) L3_sim_functions.R = functions about sample size/power formula and data generation under the scenario of level-3 (cluster-level) randomization;
 4) L1_plot_functions.R = functions used for data application under the scenario of level-1 (individual-level) randomization;
-5) L2_plot_functions.R = functions used for data application under the scenario of level-2 (individual-level) randomization;
-6) L3_plot_functions.R = functions used for data application under the scenario of level-3 (individual-level) randomization;
+5) L2_plot_functions.R = functions used for data application under the scenario of level-2 (subcluster-level) randomization;
+6) L3_plot_functions.R = functions used for data application under the scenario of level-3 (cluster-level) randomization;
 
 II. Main Files: These main files are used to reproduce the simulation results and illustrative plots in the main manuscript as well as the web appendix.
 
@@ -23,10 +23,10 @@ Folder: simulations
 9) L1_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-1 randomization;
 10) L2_HTE.R = reproduce the simulation table for testing HTE under level-2 randomization;
 11) L2_OTE.R = reproduce the simulation table for testing ATE under level-2 randomization;
-12) L2_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-1 randomization;
+12) L2_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-2 randomization;
 13) L3_HTE.R = reproduce the simulation table for testing HTE under level-3 randomization;
 14) L3_OTE.R = reproduce the simulation table for testing ATE under level-3 randomization;
-15) L3_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-1 randomization;
+15) L3_OTE_unadj.R = reproduce the simulation table for testing unadjusted ATE under level-3 randomization;
 16) xtable.R = generate the LaTeX editing version of all table contents;
 
 Folder: plots
