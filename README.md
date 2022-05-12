@@ -1,7 +1,9 @@
 # code_3levelHTE
-This repository includes R code for reproducing Figure 2 and 3, Table 1 to 3, Web Table 1 to 6, and Web Figure 1 in the paper [Li F, Chen X, Tian Z, Esserman DA, Heagerty PJ, Wang R. Planning Three-Level Cluster Randomized Trials to Assess Treatment Effect Heterogeneity. Under Review.]
+This repository includes an R file that has the functions to implement all the sample size and power methods developed in the paper [Li F, Chen X, Tian Z, Esserman DA, Heagerty PJ, Wang R. Planning Three-Level Cluster Randomized Trials to Assess Treatment Effect Heterogeneity. Under Review.]. Besides, R code for reproducing Figure 2 and 3, Table 1 to 3, Web Table 1 to 6, and Web Figure 1 in the manuscript is also provided in folders.
 
 For questions or comments about the code, please contact Zizhong Tian at <zqt5121@psu.edu>.
+
+For the separate R file "sample size_power_calculations.R", it contains 2x3x3 functions that conveniently implement the sample size and power formulas for testing HTE, ATE, and unadjusted ATE under three levels of randomization scenarios. For the code that help to reproduce the simulations or plots in the paper, the descriptions are as follows:
 
 I. Supporting Files: These supporting files are sourced in the corresponding main files that reproduce the simulation tables and illustrative plots in the main manuscript as well as the supplementary web appendix.
 
